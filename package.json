@@ -1,0 +1,14 @@
+{
+  "name": "cwmsynergies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc --clean-css ./site/assets/less/bootstrap/bootstrap.less ./site/templates/styles/bootstrap.min.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^2.7.1",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Chemicals and Waste Platform",
+  "require": {
+    "php": ">=5.3.8",
+    "ext-gd": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "phpFastCache/phpFastCache": "^6.0",
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "files": [ "wire/core/ProcessWire.php", "cwplatform/boot.php" ],
+    "psr-4": { 
+      "CWPlatform\\": "cwplatform/" 
+    }
+  }
+}
